@@ -1,7 +1,7 @@
 This SQL script encompasses a series of queries aimed at analyzing COVID-19 data stored in the PortfolioProject..CovidDeaths table. Each query serves a specific purpose, ranging from retrieving overall statistics to country-specific and continent-specific analyses.
 
 Query 1: Retrieving Overall Data
-This query selects all columns from the CovidDeaths table, filtering out records where the continent is not specified, and orders the results by the third and fourth columns.
+This query selects all columns from the CovidDeaths table, filtering out records where the continent is not specified, and orders the results by the third and fourth columns.\n
 Query 2: Country-Specific Analysis
 This query calculates the percentage of deaths due to COVID-19 in Canada, focusing on key metrics such as total cases, total deaths, and death percentage, ordered by country and report date.
 Query 3: Calculating Infection Percentage in Canada
