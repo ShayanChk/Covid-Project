@@ -96,8 +96,8 @@ FROM
     PortfolioProject..CovidDeaths
 WHERE 
     continent IS NOT NULL 
---GROUP BY 
---    date
+GROUP BY 
+    date
 ORDER BY 
     total_cases, total_deaths;
 
